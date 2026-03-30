@@ -9,104 +9,60 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #f7f7f7;
+            background: #232323;
+            color: #fff;
         }
-        /* Flexbox Navigation Bar */ Navigation bar like this makes it to where even if the screen size changes, the nav bar will still look good and be functional. Keeps the logo and links spaced out and organized
         nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: #ffd700;
-            padding: 1rem 2rem;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            background: #232323;
+            color: #fff;
         }
         .nav-logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #333;
-        }
-        .nav-links {
-            display: flex;
-            gap: 2rem;
+            color: #ff2d2d;
         }
         .nav-links a {
-            text-decoration: none;
-            color: #333;
-            font-weight: 500;
-            transition: color 0.2s;
+            color: #fff;
         }
         .nav-links a:hover {
-            color: #bfa100;
+            color: #ff2d2d;
         }
-            /* CSS Grid for About Section */ Grid helps the images pop out while not being too big for the screen
-
-            .about-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2rem;
-            max-width: 1000px;
-            margin: 3rem auto;
-            background: #fff;
-            border-radius: 12px;
-            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
-            padding: 2rem;
-        }
-        .about-image {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .about-image img {
-            max-width: 100%;
-            border-radius: 10px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.10);
-        }
-        .about-content {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+        .about-container {
+            background: #181818;
         }
         .about-content h1 {
-            color: #bfa100;
-            margin-bottom: 1rem;
+            color: #ff2d2d;
         }
         .about-content p {
-            color: #444;
-            line-height: 1.7;
+            color: #fff;
         }
-        @media (max-width: 800px) {
-            .about-container {
-                grid-template-columns: 1fr;
-                padding: 1rem;
-            }
+        footer {
+            background: #232323 !important;
+            color: #fff !important;
         }
     </style>
 </head>
 <body>
     <nav>
-        <div class="nav-logo">Golden Gym</div>
+        <div class="nav-logo">Big Fit City Gym</div>
         <div class="nav-links">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
         </div>
-        <!-- The nav bar is simple and clean, with the logo on the left and the links on the right. The gold background helps it stand out and gives it a luxurious feel, while the hover effect on the links adds a nice touch of interactivity. -->
     </nav>
     <div class="about-container">
         <div class="about-image">
-            <img src="images/output.jpg" alt="Golden Gym Facility at the Maryland location">
-            <img src="images/gym.jpg" alt="Golden Gym members going in for a workout">
+            <img src="images/output.jpg" alt="Big Fit City Gym Facility" style="width:260px; height:auto; margin:0 10px;">
+            <img src="images/gym.jpg" alt="Big Fit City Gym members working out" style="width:260px; height:auto; margin:0 10px;">
         </div>
-        <!-- The about section is designed to be visually appealing and informative. The images on the left help to showcase the gym's facilities and community. -->
         <div class="about-content">
-            <h1>About Golden Gym</h1>
+            <h1>About Big Fit City Gym</h1>
             <p>
-                Welcome to Golden Gym, your premier destination for fitness, health, and community! Established in 2010, Golden Gym has been dedicated to helping individuals achieve their fitness goals in a supportive and motivating environment. Our state-of-the-art facility features the latest equipment, a wide range of group classes, and experienced trainers ready to guide you every step of the way.<br><br>
-                At Golden Gym, we believe that fitness is for everyone. Whether you're a beginner or a seasoned athlete, our inclusive community and personalized programs are designed to help you succeed. Join us and discover why Golden Gym is the gold standard in fitness!
+                Welcome to Big Fit City Gym, your premier destination for fitness, health, and community! Established in 2010, Big Fit City Gym has been dedicated to helping individuals achieve their fitness goals in a supportive and motivating environment. Our state-of-the-art facility features the latest equipment, a wide range of group classes, and experienced trainers ready to guide you every step of the way.<br><br>
+                At Big Fit City Gym, we believe that fitness is for everyone. Whether you're a beginner or a seasoned athlete, our inclusive community and personalized programs are designed to help you succeed. Join us and discover why Big Fit City Gym is the new standard in fitness!
             </p>
         </div>
     </div>
 
-    <footer style="text-align: center; padding: 1rem; background: #ffd700; color: #333;"> <!-- This helps set up a border for the footer and helps it pop out with the gold colors. -->
-        &copy; 2024 Golden Gym. All rights reserved.
+    <footer style="text-align: center; padding: 1rem; background: #232323; color: #fff;">
+        &copy; 2026 Big Fit City Gym. All rights reserved.
 </body>
 </html>

@@ -3,14 +3,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ffd700;
+    background: #232323;
     padding: 1rem 2rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
 }
 .nav-logo {
     font-size: 1.7rem;
     font-weight: bold;
-    color: #333;
+    color: #ff2d2d;
     letter-spacing: 2px;
 }
 .nav-links {
@@ -19,15 +19,16 @@ nav {
 }
 .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     font-weight: 600;
     font-size: 1.1rem;
     padding: 0.5rem 1rem;
     border-radius: 6px;
+    transition: color 0.2s, background 0.2s;
 }
 .nav-links a:hover {
-    background: #ffe066;
-    color: #bfa100;
+    background: #ff2d2d;
+    color: #fff;
 }
 @media (max-width: 600px) {
     nav {
@@ -48,9 +49,10 @@ nav {
 }
 
 body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f7f7f7;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #232323;
+    color: #fff;
         }
         /* Flexbox Navigation Bar */ Navigation bar like this makes it to where even if the screen size changes, the nav bar will still look good and be functional
         nav {
@@ -86,9 +88,9 @@ body {
             gap: 2rem;
             max-width: 1000px;
             margin: 3rem auto;
-            background: #fff;
+            background: #181818;
             border-radius: 12px;
-            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 24px rgba(0,0,0,0.18);
             padding: 2rem;
         }
         .about-image {
@@ -97,9 +99,11 @@ body {
             justify-content: center;
         }
         .about-image img {
+            width: 260px;
             max-width: 100%;
+            height: auto;
             border-radius: 10px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+            box-shadow: 0 2px 12px rgba(0,0,0,0.18);
         }
         .about-content {
             display: flex;
@@ -129,11 +133,11 @@ body {
         }
     }
         .about-content h1 {
-            color: #bfa100;
+            color: #ff2d2d;
             margin-bottom: 1rem;
         }
         .about-content p {
-            color: #444;
+            color: #fff;
             line-height: 1.7;
         }
         @media (max-width: 800px) {
