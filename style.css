@@ -1,0 +1,23 @@
+button {
+padding: 10px 16px;
+margin-right: 10px;
+cursor: pointer;
+}
+
+input {
+padding: 10px;
+margin-right: 10px;
+}
+
+#dataContainer div {
+background: #f9f9f9;
+border: 1px solid #ddd;
+padding: 15px;
+margin-top: 12px;
+border-radius: 8px;
+}
+
+#errorMessage {
+color: red;
+}
+
